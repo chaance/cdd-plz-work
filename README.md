@@ -174,7 +174,7 @@ We also have a utility to auto-delete the user at the end of your test. Just mak
 
 ```ts
 afterEach(() => {
-  cy.cleanupUser();
+	cy.cleanupUser();
 });
 ```
 
