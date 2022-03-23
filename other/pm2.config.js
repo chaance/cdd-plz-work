@@ -31,8 +31,8 @@ module.exports = {
 			env,
 		},
 		{
-			name: "Tailwind",
-			script: "npm run generate:css -- --watch",
+			name: "CSS",
+			script: "npm run dev:css",
 			autorestart: false,
 			ignore_watch: ["."],
 			env,

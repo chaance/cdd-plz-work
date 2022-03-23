@@ -9,7 +9,7 @@ import {
 } from "remix";
 import type { LinksFunction, MetaFunction, LoaderFunction } from "remix";
 
-import tailwindStylesheetUrl from "./styles/tailwind.css";
+import tailwindStylesheetUrl from "~/styles/dist/global.css";
 import { getUser } from "./session.server";
 
 export const links: LinksFunction = () => {
